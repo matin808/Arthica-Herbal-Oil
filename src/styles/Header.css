@@ -1,0 +1,23 @@
+.header {
+  background-color: #cacaca;
+}
+
+.header__brandName {
+  color: rgb(33, 155, 22);
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 2rem !important;
+}
+
+.header__logo {
+  height: 40px;
+  width: 40px;
+}
+
+.header__ul {
+  color: rgb(33, 155, 22);
+  font-size: 1.7rem !important;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0 20px !important;
+  font-weight: 550;
+}

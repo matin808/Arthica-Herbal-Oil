@@ -1,0 +1,25 @@
+.main__quote {
+  padding-top: 26vh;
+  line-height: 70px;
+  font-size: 55px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100 !important;
+  color: rgb(170, 216, 110);
+}
+
+.main__image {
+  width: 60vh;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) and (min-width: 250px) {
+  .main__quote {
+    padding-top: 15vh;
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .main__image {
+    width: 50vh;
+  }
+}

@@ -1,0 +1,37 @@
+.footer {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 120px;
+  background-color: rgb(30, 24, 46);
+  color: #fefefefe;
+  margin-top: 50px;
+}
+.footer__heading {
+  color: rgb(220, 247, 185);
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.footer__para {
+  color: #a09a9a;
+  line-height: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 650px) and (min-width: 250px) {
+  .footer {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 120px;
+    background-color: rgb(30, 24, 46);
+    color: #fefefefe;
+    margin-top: 50px;
+  }
+
+  .footer__right {
+    margin-top: 30px;
+  }
+}
