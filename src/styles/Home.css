@@ -13,13 +13,13 @@
   margin-left: 20px;
 }
 
-@media screen and (max-width: 600px) and (min-width: 250px) {
+@media screen and (max-width: 600px) and (min-width: 100px) {
   .main__quote {
     padding-top: 15vh;
     font-size: 35px;
     line-height: 50px;
   }
   .main__image {
-    width: 50vh;
+    width: 40vh;
   }
 }
