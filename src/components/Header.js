@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import Logo from '../images/herbal.png';
 import '../styles/Header.css';
-//import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 import {
@@ -20,12 +20,12 @@ import {
    return (
      <div className = "header">
         <Navbar className = "header__navbar" expand="md">
-        {/* <Link to = "/"> */}
+         
         <img className = "header__logo" src = {Logo} alt="" />
-        <NavbarBrand className = "header__brandName">
-        Arthica 
+        <Link to = "/"><NavbarBrand className = "header__brandName">
+            Arthica 
         </NavbarBrand>
-        {/* </Link> */}
+         </Link> 
         <NavbarToggler className="header__toggle navbar-light" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

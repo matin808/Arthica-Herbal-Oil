@@ -2,6 +2,7 @@ import React from 'react';
 import Image1 from '../images/mortar.png';
 import '../styles/Home.css';
 
+
 function Home() {
     return (
     <div className = "home">
@@ -21,9 +22,8 @@ function Home() {
           <div className = "main__right">
     
          <img className = "main__image" src = {Image1} alt = "" />
-         {/* <Carosel /> */}
-        </div>
-        </div>
+            </div>
+          </div>
         </div>
         </div>
 

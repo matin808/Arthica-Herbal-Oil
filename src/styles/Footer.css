@@ -20,6 +20,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.footer__right__no {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 650px) and (min-width: 250px) {
   .footer {
     padding: 40px;
