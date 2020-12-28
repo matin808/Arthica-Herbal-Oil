@@ -15,8 +15,8 @@ function Footer() {
         
             <div className = "footer__right">
             <h2 className = "footer__heading">Contact Details</h2>
-            <CallIcon /><b className = "footer__right__no">+919820597783</b><br />
-            <CallIcon /><b className = "footer__right__no">+919272007860</b><br />
+            <CallIcon /><b className = "footer__right__no"><a className = "footer__right__link" href = "tel:+919820597783">+919820597783</a></b><br />
+            <CallIcon /><b className = "footer__right__no"><a className = "footer__right__link" href = "tel:+919272007860">+919272007860</a></b><br />
             <EmailIcon /> <a href="mailto:arthicaherbalmassageoil@gmail.com">
             ArthicaHerbalOil.net</a>
             </div>

@@ -25,6 +25,15 @@
   font-weight: 500;
 }
 
+.footer__right__link {
+  color: white;
+}
+
+.footer__right__link:hover {
+  color: white;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 650px) and (min-width: 250px) {
   .footer {
     padding: 40px;
