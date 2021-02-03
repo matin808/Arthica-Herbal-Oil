@@ -2,8 +2,13 @@ import React from 'react'
 import Video from '../images/herbal5.3gpp';
 import { Card, CardTitle, CardText, Row, Col } from 'reactstrap';
 import '../styles/About.css';
+import Button from '@material-ui/core/Button';
+import CallIcon from '@material-ui/icons/Call';
+
+
 
 function About() {
+
     return (
         <div className = "about">
 
@@ -41,6 +46,19 @@ This remedy is widely used for curing all the Joint and Muscular Pains.Massage w
         </Card>
       </Col>
     </Row>
+
+      <div className="about__btn">
+      <a href = "tel:+919820597783">
+       <Button 
+        variant="contained"
+        color="primary"
+        size="medium"
+        startIcon={<CallIcon />}
+      >
+        Order Now
+      </Button>
+      </a>
+      </div>    
         
         </div>
     )

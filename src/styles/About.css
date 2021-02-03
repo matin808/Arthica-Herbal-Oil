@@ -7,6 +7,11 @@
   height: auto;
 }
 
+.about__btn {
+  text-align: center;
+  padding-top: 30px;
+}
+
 @media screen and (max-width: 650px) and (min-width: 250px) {
   .about__row {
     margin-top: 0;
